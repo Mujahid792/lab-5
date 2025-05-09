@@ -112,7 +112,7 @@ int GetDigit(string s)
 using namespace std;
 
 int main() {
-    double num1, num2, sum;
+    int num1, num2, sum;
 
     // Input two numbers
     cout << "Enter first number: ";
@@ -121,11 +121,13 @@ int main() {
     cout << "Enter second number: ";
     cin >> num2;
 
-    // Perform addition
+    // Add the numbers
     sum = num1 + num2;
 
     // Display the result
-    cout << "The sum is: " << sum << endl;
+    cout << "Sum = " << sum << endl;
 
     return 0;
 }
+
+    
